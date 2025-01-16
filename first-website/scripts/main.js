@@ -20,7 +20,7 @@ function setUserName() {
     if (!myName) {
         setUserName();
     } else {
-        loadStorage.setItem('name', myName);
+        localStorage.setItem('name', myName);
         myHeading.textContent = `Mozilla is cool, ${myName}`;
     }
 }
