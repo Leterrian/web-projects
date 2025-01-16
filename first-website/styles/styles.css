@@ -25,3 +25,11 @@ img{
     max-width: 100%;
     margin: 0 auto;
 }
+
+p{
+    color: white;
+}
+
+ul{
+    color: green
+}

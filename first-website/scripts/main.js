@@ -1,4 +1,4 @@
-
+// Changes image on click 
 const myImage = document.querySelector("img");
 
 myImage.addEventListener("click", () => {
@@ -9,6 +9,8 @@ myImage.addEventListener("click", () => {
         myImage.setAttribute('src', 'photos/Coffee_Drinks.jpg');
     }
 });
+
+// Makes pop up 
 
 let myButton = document.querySelector("button");
 let myHeading = document.querySelector('h1');
@@ -30,6 +32,8 @@ if (!localStorage.getItem("name")) {
     myHeading.textContent = `Mozilla is cool  ${storedName}`;
 }
 
-myButton.addEventListener("click", () => {
+myButton.addEventListener('click', () =>{
     setUserName();
+    
 });
+    
